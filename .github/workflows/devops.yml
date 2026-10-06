@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Code checkout
-        run: echo "Code checkout done"
+        uses: actions/checkout@v7
 
 
   build:
@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Code Build
-        run: echo "Code build done"
+        run: echo "Docker todo"
 
 
   test:
